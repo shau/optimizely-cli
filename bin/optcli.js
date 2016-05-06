@@ -48,6 +48,7 @@ program
   .command("host <path> [port]")
   .option("-s --ssl", "SSL")
   .option("-o --open", "Open the localhost index page")
+  .option("-c --control", "Use control version of experiment")
   .description("Host variation locally")
   .action(loadCommand("host"));
 
